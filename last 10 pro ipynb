@@ -1,0 +1,156 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOVwp3/JlGgGgEKceqH17xl",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/thirusha-n/thirusha_8D20F121C6578DBB6E9461750C62E871/blob/main/last%2010%20pro%20ipynb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "hJlFmYOTiFWs"
+      },
+      "outputs": [],
+      "source": [
+        "a=input(\"enter:A\")\n",
+        "b=input(\"enter:B\")\n",
+        "if(a==b):\n",
+        "    print(\"equal\")\n",
+        "else:\n",
+        "    print(\"not same\")"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=int(input(\"enter a no:A\"))\n",
+        "b=int(input(\"enter a no:B\"))\n",
+        "c=int(input(\"enter a no:C\"))\n",
+        "if(2*b==a+c):\n",
+        "    print(\"forms arithmetic progression\")\n",
+        "else:\n",
+        "    print(\"does not forms arithmetic progression\")"
+      ],
+      "metadata": {
+        "id": "q07Wpq2ZjW_O"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "height=int(input(\"height:\"))\n",
+        "weight=int(input(\"weight:\"))\n",
+        "BMI=height/(weight*2)\n",
+        "if(BMI<20):\n",
+        "    print(\"under weight\")\n",
+        "elif(BMI>50):\n",
+        "    print(\"normal\")\n",
+        "else:\n",
+        "    print(\"obese\")"
+      ],
+      "metadata": {
+        "id": "Tn449978jhrl"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=int(input(\"enter a no:A\"))\n",
+        "b=int(input(\"enter a no:B\"))\n",
+        "c=int(input(\"enter a no:C\"))\n",
+        "max_num = a\n",
+        "if (b > max_num):\n",
+        "    print(\"max_num = b\")\n",
+        "elif(c > max_num):\n",
+        "    print(\"max_num = c\")\n",
+        "else:\n",
+        "    print(\"max_num\")"
+      ],
+      "metadata": {
+        "id": "cI6NFPp4jrWl"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=int(input(\"enter a no:A\"))\n",
+        "b=int(input(\"enter a no:B\"))\n",
+        "c=int(input(\"enter a no:C\"))\n",
+        "mini_num = a\n",
+        "if (b < mini_num):\n",
+        "    print(\"mini_num = b\")\n",
+        "elif(c < mini_num):\n",
+        "    print(\"mini_num = c\")\n",
+        "else:\n",
+        "    print(\"mini_num\")"
+      ],
+      "metadata": {
+        "id": "tli2JyuljyFi"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=int(input(\"enter a no :1\"))\n",
+        "b=int(input(\"enter a no :2\"))\n",
+        "c=int(input(\"enter a no :3\"))\n",
+        "diff_1 = b-a\n",
+        "diff_2 = c-b\n",
+        "if(diff_1==diff_2):\n",
+        "    print(\"true\")\n",
+        "else:\n",
+        "    print(\"false\")"
+      ],
+      "metadata": {
+        "id": "a6DD4Sl8j6jK"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=input(\"enter a day:\")\n",
+        "if(a=='saturday' or a=='sunday'):\n",
+        "    print(\"weekend\")\n",
+        "else:\n",
+        "    print(\"weekday\")"
+      ],
+      "metadata": {
+        "id": "tnSEPVBwlGTK"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
